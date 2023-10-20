@@ -52,7 +52,7 @@ Please refer to LICENSE file for licensing information.
 
 //set number of times the running function has to be call while idle in order to perform a read
 #define MICROPROTO_READINGCOUNTERTHRESHOLD 30
-//deley time to wait for an ack
+//delay time to wait for an ack
 #define MINICOM_WAITFORACKUS 1000
 //enable the crc check on get command
 #define MICROPROTO_ENABLECRCCHECKONGETCOMMAND 1
@@ -82,16 +82,16 @@ Please refer to LICENSE file for licensing information.
 #endif
 
 #if MICROPROTO_MODE == MICROPROTO_MODETIMED
-//max number of tryes in read
-#define MICROPROTO_MAXTRYREAD 50
+//max number of tries in read
+#define MICROPROTO_MAXTRYREAD 30
 //wait between char read in us
-#define MICROPROTO_WAITUSNOTREADC 10
+#define MICROPROTO_WAITUSNOTREADC 5
 //wait after a char is read in us
-#define MICROPROTO_WAITUSREADC 10
+#define MICROPROTO_WAITUSREADC 1
 #endif
 
 //max char to read if one is read in runner
-#define MICROPROTO_DEFAULTCONTINOUSREADCHARS 10
+#define MICROPROTO_DEFAULTCONTINOUSREADCHARS 20
 
 //commands
 #define MICROPROTO_STX 0x02

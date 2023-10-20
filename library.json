@@ -13,7 +13,7 @@
       "url": "https://github.com/davidegironi/pio-microproto.git"
     },
     "version": "0.0.2",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "frameworks": "arduino",
     "platforms": ["atmelavr", "espressif8266", "espressif32"]
   }
