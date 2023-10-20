@@ -1,0 +1,14 @@
+==================================================
+MicroProto
+==================================================
+= Copyright (c) Davide Gironi, 2020              =
+= http://davidegironi.blogspot.it/               =
+==================================================
+
+
+MicroProto is a mini protocol implementation to exchange data between devices.
+
+
+License
+-------
+Please refer to LICENSE file for licensing information.

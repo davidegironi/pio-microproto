@@ -1,0 +1,19 @@
+{
+    "name":"MicroProto",
+    "description":"Micro Protocol to exchange data over a bus",
+    "keywords":"serial,protocol,data,exchange",
+    "authors":
+    {
+      "name": "Davide Gironi",
+      "maintainer": true
+    },
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/davidegironi/pio-microproto.git"
+    },
+    "version": "0.0.2",
+    "license": "GPLv3",
+    "frameworks": "arduino",
+    "platforms": ["atmelavr", "espressif8266", "espressif32"]
+  }
